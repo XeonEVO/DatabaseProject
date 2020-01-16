@@ -1,0 +1,10 @@
+INSERT INTO employee VALUES ('A01','Parin Boorapha','Male','25');
+INSERT INTO employee VALUES ('A02','Cherprang Areekul','Female','25');
+INSERT INTO employee VALUES ('A03','Supachai Sroykram,'Male','25');
+INSERT INTO employee VALUES ('A04','Pleanpichaya Komalrajun','Female','25');
+INSERT INTO employee VALUES ('A05','Thanaphon Puputta'),'Male','25');
+INSERT INTO employee VALUES ('A06','Jiradapa Intajak','Female','25');
+INSERT INTO employee VALUES ('A07','Pawarit Praneetponkrang','Male','25');
+INSERT INTO employee VALUES ('A08','Korapat Nilprapa','Female','25');
+INSERT INTO employee VALUES ('A09','Tanakit Maneewihok','Male','25');
+INSERT INTO employee VALUES ('A10','Chaithawat Mahakeaw','Male','25');

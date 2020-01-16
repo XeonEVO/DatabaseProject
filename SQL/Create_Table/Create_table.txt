@@ -1,0 +1,58 @@
+CREATE TABLE airline (
+airline_name VARCHAR2(70) not null,
+airplane_name VARCHAR2(70) not null,
+PRIMARY KEY(air_name)
+);
+
+CREATE TABLE employee (
+employee_id VARCHAR2(50) not null,
+employee_name VARCHAR2(70) not null,
+employee_gender VARCHER2(10) not null,
+employee_age NUMBER not null,
+PRIMARY KEY(employ_name)
+);
+
+CREATE TABLE price (
+price_id  VARCHAR2(20) not null,
+a_price number not null,
+c_price number not null,
+PRIMARY KEY(pri_id)
+);
+
+CREATE TABLE customer (
+customer_id number not null,
+customer_name VARCHAR2(100) not null,
+age number not null,
+sex CHAR(10) not null,
+phone VARCHAR2(10) not null,
+child number not null,
+adult number not null,
+total_price number not null,
+pack_id VARCHAR2(40) not null,
+user_id VACHAR2(20) not null,
+PRIMARY KEY(customer_id),
+FOREIGN KEY(pack_id) REFERENCES pack(pack_id)
+FOREIGN KEY(user_id) REFERENCES pack(user_id)
+);
+
+CREATE TABLE pack (
+pack_id number not null,
+pack_name VARCHAR2(50) not null,
+city  VARCHAR2(50) not null,
+time_t VARCHAR2(50) not null,
+time_b VARCHAR2(50) not null,
+days   VARCHAR2(50) not null,
+price_pack number not null,
+air_name VARCHAR2(50) not null,
+employee_id VARCHAR2(50) not null,
+PRIMARY KEY(pack_id),
+FOREIGN KEY(air_name) REFERENCES airline(air_name),
+FOREIGN KEY(employee_id) REFERENCES employee(employee_id)
+);
+
+CREATE TABLE user (
+user_id VARCHAR2(20) not null,
+user_name VARCHAR2(20) not null,
+user_pass VARCHAR2(8) not null,
+primary key(user_id)
+);

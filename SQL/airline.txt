@@ -1,0 +1,10 @@
+INSERT INTO airline VALUES ('Thai Airways','Boeing737');
+INSERT INTO airline VALUES ('Air China','Boeing777');
+INSERT INTO airline VALUES ('tigerAir','Boeing767');
+INSERT INTO airline VALUES ('All nippon Airways','Boeing777');
+INSERT INTO airline VALUES ('China Eastern Airlines','Boeing787');
+INSERT INTO airline VALUES ('Japan Airlines','Boeing777');
+INSERT INTO airline VALUES ('AirAsia','Boeing747');
+INSERT INTO airline VALUES ('Vietnam Airlines','Boeing747');
+INSERT INTO airline VALUES ('Lion Air','Boeing747');
+INSERT INTO airline VALUES ('Emirates','Boeing787');
